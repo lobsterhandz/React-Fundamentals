@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #121212;
+}
+/* Center the content and limit the width */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: #282c34;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 30px;
+}
+
+/* Headings styling */
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+/* Links appearance */
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
